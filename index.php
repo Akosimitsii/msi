@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSIRPH Legit Member Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div >
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <img src="logo.png" style="height: 50px; width:50px; ">
+
+                <a class="navbar-brand " href="index.html">MSIRPH</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="#">Members</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="#">Contact Us</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel -->
+        <div id="carouselExample" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-inner" >
+                <div class="carousel-item active" >
+                <img  src="2.jpg" class="d-block w-100 " alt="..." style="object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                <img  src="3.jpg" class="d-block w-100 " alt="..." style="object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                <img  src="1.jpg" class="d-block w-100 " alt="..." style="object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- title -->
+        <hr>
+        <h1 class="text-center">MIO SOUL RIDERS PHILIPPINES</h1>
+        <hr>
+        <!-- form -->
+        <div class="bg-danger-subtle border border-3 rounded-3 p-5">
+            <h3>Legit Member Form</h3>
+            <p>Fill out the form for us to gather the official list of legit members of the MSIRPH.</p>
+            <hr>
+            <form action="success.php" method="post">
+                Fullname:
+                <input required class="w-100 form-control text-uppercase" type="text" id="fname" name="fname" placeholder="DELA CRUZ, JUAN RODRIGO" >
+                <br>
+                Birthday:
+                <input required class="w-100 form-control" type="date" id="bday" name="bday" >
+                <br>
+                Address:
+                <input required class="w-100 form-control" type="text" id="address" name="address" placeholder="123 Baranggay ABC, Manila">
+                <br>
+                Zone:<br>
+                <select required class="w-50 form-control" id="zone" name="zone">
+                    <option value="Zone 1">Zone 1</option>
+                    <option value="Zone 2">Zone 2</option>
+                    <option value="Zone 3">Zone 3</option>
+                    <option value="Zone 4">Zone 4</option>
+                    <option value="Zone 5">Zone 5</option>
+                    <option value="Zone 6">Zone 6</option>
+                    <option value="Bulacan Chapter">Bulacan Chapter</option>
+                    <option value="Cavite Chapter ">Cavite Chapter</option>
+                    <option value="Laguna Chapter ">Laguna Chapter</option>
+                </select>
+                <br>
+                MSIRPH LEGIT NUMBER:
+                <input required class="w-50 form-control" type="text" id="legit" name="legit" placeholder="001" maxlength="3">
+                <br>
+                <hr>
+                <center><input type="submit" class="btn btn-success w-50"></center>
+            </form>
+        </div>
+        <br>
+        <br>
+        <!-- footer -->
+        <center>
+        <div class="bg-dark text-light p-3">
+            <div class="row">
+                <div class="col-sm">
+                    <!-- logo -->
+                    <img src="logo.png" style="height: 50px; width:50px; ">
+                </div>
+                <div class="col-sm text-start">
+                    Mio Soul Riders Philippines <br>
+                    SEC# CN202004842
+                </div>
+                <div class="col-sm text-start">
+                    Metro Manila, Philippines <br>
+                    095-5104-1598<br>
+                    
+                </div>
+            </div>
+        </center>
+        </div>
+    </div>
+</body>
+</html>
